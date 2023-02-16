@@ -1,0 +1,1748 @@
+{
+  "requestParameters": {
+    "date": "04-07-2021",
+    "mode": "BUS,RAIL,TRAM,SUBWAY,WALK",
+    "arriveBy": "false",
+    "wheelchair": "false",
+    "optimize": "QUICK",
+    "showIntermediateStops": "true",
+    "fromPlace": "34.057836,-118.38038",
+    "toPlace": "33.959951,-118.413288",
+    "maxWalkDistance": "2253.0759999999996",
+    "time": "11:14pm",
+    "numItineraries": "2"
+  },
+  "plan": {
+    "date": 1617862440000,
+    "from": {
+      "name": "Origin",
+      "lon": -118.38038,
+      "lat": 34.057836,
+      "orig": "",
+      "vertexType": "NORMAL"
+    },
+    "to": {
+      "name": "Destination",
+      "lon": -118.413288,
+      "lat": 33.959951,
+      "orig": "",
+      "vertexType": "NORMAL"
+    },
+    "itineraries": [
+      {
+        "duration": 5565,
+        "startTime": 1617862777000,
+        "endTime": 1617868342000,
+        "walkTime": 1323,
+        "transitTime": 3060,
+        "waitingTime": 1182,
+        "walkDistance": 2589.46275,
+        "walkLimitExceeded": false,
+        "elevationLost": 0.0,
+        "elevationGained": 0.0,
+        "transfers": 1,
+        "legs": [
+          {
+            "startTime": 1617862777000,
+            "endTime": 1617863279000,
+            "departureDelay": 0,
+            "arrivalDelay": 0,
+            "realTime": false,
+            "distance": 974.141,
+            "pathway": false,
+            "mode": "WALK",
+            "route": "",
+            "agencyTimeZoneOffset": -25200000,
+            "interlineWithPreviousLeg": false,
+            "from": {
+              "name": "Origin",
+              "lon": -118.38038,
+              "lat": 34.057836,
+              "departure": 1617862777000,
+              "orig": "",
+              "vertexType": "NORMAL"
+            },
+            "to": {
+              "name": "Wilshire / Willaman",
+              "stopId": "uscalacmtabus:16759",
+              "stopCode": "16759",
+              "lon": -118.380267,
+              "lat": 34.066347,
+              "arrival": 1617863279000,
+              "departure": 1617863280000,
+              "stopIndex": 22,
+              "stopSequence": 23,
+              "vertexType": "TRANSIT"
+            },
+            "legGeometry": {
+              "points": "m|znEpdpqU}GGW?Y?mGGOCOCoJ@OFOBA?{JNM?O?gCDs@@Q@Y?]@FS@EBQ",
+              "length": 22
+            },
+            "rentedBike": false,
+            "duration": 502.0,
+            "transitLeg": false,
+            "intermediateStops": [],
+            "steps": [
+              {
+                "distance": 568.6659999999999,
+                "relativeDirection": "DEPART",
+                "streetName": "South Bedford Street",
+                "absoluteDirection": "NORTH",
+                "stayOn": false,
+                "area": false,
+                "bogusName": false,
+                "lon": -118.38040381066078,
+                "lat": 34.05783640068827,
+                "elevation": []
+              },
+              {
+                "distance": 367.67400000000004,
+                "relativeDirection": "CONTINUE",
+                "streetName": "South Willaman Drive",
+                "absoluteDirection": "NORTH",
+                "stayOn": false,
+                "area": false,
+                "bogusName": false,
+                "lon": -118.38033530000001,
+                "lat": 34.0629402,
+                "elevation": []
+              },
+              {
+                "distance": 16.371,
+                "relativeDirection": "CONTINUE",
+                "streetName": "North Willaman Drive",
+                "absoluteDirection": "NORTH",
+                "stayOn": false,
+                "area": false,
+                "bogusName": false,
+                "lon": -118.3804896,
+                "lat": 34.0662431,
+                "elevation": []
+              },
+              {
+                "distance": 21.43,
+                "relativeDirection": "RIGHT",
+                "streetName": "path",
+                "absoluteDirection": "SOUTHEAST",
+                "stayOn": false,
+                "area": false,
+                "bogusName": true,
+                "lon": -118.3804932,
+                "lat": 34.0663903,
+                "elevation": []
+              }
+            ]
+          },
+          {
+            "startTime": 1617863280000,
+            "endTime": 1617864000000,
+            "departureDelay": 0,
+            "arrivalDelay": 0,
+            "realTime": false,
+            "distance": 6176.557369867119,
+            "pathway": false,
+            "mode": "BUS",
+            "route": "720",
+            "agencyName": "Metro - Los Angeles",
+            "agencyUrl": "http://www.metro.net",
+            "agencyTimeZoneOffset": -25200000,
+            "routeColor": "000000",
+            "routeType": 3,
+            "routeId": "uscalacmtabus:720-13139",
+            "routeTextColor": "FFFFFF",
+            "interlineWithPreviousLeg": false,
+            "tripBlockId": "7203102",
+            "headsign": "720 - Metro Rapid - Santa Monica",
+            "agencyId": "LACMTA",
+            "tripId": "uscalacmtabus:52264776-DEC20-D13CAR-1_Weekday",
+            "serviceDate": "20210407",
+            "from": {
+              "name": "Wilshire / Willaman",
+              "stopId": "uscalacmtabus:16759",
+              "stopCode": "16759",
+              "lon": -118.380267,
+              "lat": 34.066347,
+              "arrival": 1617863279000,
+              "departure": 1617863280000,
+              "stopIndex": 22,
+              "stopSequence": 23,
+              "vertexType": "TRANSIT"
+            },
+            "to": {
+              "name": "Wilshire / Westwood",
+              "stopId": "uscalacmtabus:16777",
+              "stopCode": "16777",
+              "lon": -118.44425,
+              "lat": 34.058839,
+              "arrival": 1617864000000,
+              "departure": 1617864000000,
+              "stopIndex": 28,
+              "stopSequence": 29,
+              "vertexType": "TRANSIT"
+            },
+            "legGeometry": {
+              "points": "{p|nE~cpqUG\\s@tEu@nEc@tCIZAJCZ?X?|A???nAAhE?bE@jEAdE?lE?nE?h@A`D@|AAtB?hC?dA?X?`A???fB?rD?b@?nC?|@?tB?lA?|@AlD?pD?h@?tC?~@?lB??AjB@P?`@?`D?^?fD?RAvE?dA?R?dC?H?hE?|E?L?@?`B?jD?vF?tC?lC?~H?hNAb@eCl]s@bKE`A@dAB|@F`A^nFBPF^Jd@Rr@tBfG??Rj@dAzCf@fAHNHNTZfAlA`FfFt@l@XT^T^L`Bf@tDbATFj@TVL\\TVTFHRTZh@FJVh@Vr@Tv@FXDZJ~@D^DTJb@BPDXfBvLPnAfAnGjBnKn@rD~@zFL~@@?",
+              "length": 121
+            },
+            "routeShortName": "720",
+            "routeLongName": "Metro Rapid Line",
+            "rentedBike": false,
+            "duration": 720.0,
+            "transitLeg": true,
+            "intermediateStops": [
+              {
+                "name": "Wilshire / Robertson",
+                "stopId": "uscalacmtabus:16746",
+                "stopCode": "16746",
+                "lon": -118.384269,
+                "lat": 34.067186,
+                "arrival": 1617863280000,
+                "departure": 1617863280000,
+                "stopIndex": 23,
+                "stopSequence": 24,
+                "vertexType": "TRANSIT"
+              },
+              {
+                "name": "Wilshire / Rexford",
+                "stopId": "uscalacmtabus:16743",
+                "stopCode": "16743",
+                "lon": -118.394317,
+                "lat": 34.067201,
+                "arrival": 1617863400000,
+                "departure": 1617863400000,
+                "stopIndex": 24,
+                "stopSequence": 25,
+                "vertexType": "TRANSIT"
+              },
+              {
+                "name": "Wilshire / Rodeo",
+                "stopId": "uscalacmtabus:16747",
+                "stopCode": "16747",
+                "lon": -118.40182,
+                "lat": 34.067217,
+                "arrival": 1617863520000,
+                "departure": 1617863520000,
+                "stopIndex": 25,
+                "stopSequence": 26,
+                "vertexType": "TRANSIT"
+              },
+              {
+                "name": "Wilshire / Santa Monica",
+                "stopId": "uscalacmtabus:16762",
+                "stopCode": "16762",
+                "lon": -118.408981,
+                "lat": 34.06722,
+                "arrival": 1617863580000,
+                "departure": 1617863580000,
+                "stopIndex": 26,
+                "stopSequence": 27,
+                "vertexType": "TRANSIT"
+              },
+              {
+                "name": "Wilshire / Beverly Glen",
+                "stopId": "uscalacmtabus:16704",
+                "stopCode": "16704",
+                "lon": -118.428689,
+                "lat": 34.067136,
+                "arrival": 1617863820000,
+                "departure": 1617863820000,
+                "stopIndex": 27,
+                "stopSequence": 28,
+                "vertexType": "TRANSIT"
+              }
+            ],
+            "steps": [
+            ]
+          },
+          {
+            "startTime": 1617864000000,
+            "endTime": 1617864020000,
+            "departureDelay": 0,
+            "arrivalDelay": 0,
+            "realTime": false,
+            "distance": 34.007000000000005,
+            "pathway": false,
+            "mode": "WALK",
+            "route": "",
+            "agencyTimeZoneOffset": -25200000,
+            "interlineWithPreviousLeg": false,
+            "from": {
+              "name": "Wilshire / Westwood",
+              "stopId": "uscalacmtabus:16777",
+              "stopCode": "16777",
+              "lon": -118.44425,
+              "lat": 34.058839,
+              "arrival": 1617864000000,
+              "departure": 1617864000000,
+              "stopIndex": 28,
+              "stopSequence": 29,
+              "vertexType": "TRANSIT"
+            },
+            "to": {
+              "name": "WILSHIRE BLVD/WESTWOOD PZ",
+              "stopId": "7:10036",
+              "lon": -118.44393223021,
+              "lat": 34.058788308577,
+              "arrival": 1617864020000,
+              "departure": 1617865200000,
+              "stopIndex": 4,
+              "stopSequence": 36,
+              "vertexType": "TRANSIT"
+            },
+            "legGeometry": {
+              "points": "yb{nEls|qUVUEUCM",
+              "length": 4
+            },
+            "rentedBike": false,
+            "duration": 20.0,
+            "transitLeg": false,
+            "intermediateStops": [
+            ],
+            "steps": [
+              {
+                "distance": 16.661,
+                "relativeDirection": "DEPART",
+                "streetName": "path",
+                "absoluteDirection": "SOUTHEAST",
+                "stayOn": false,
+                "area": false,
+                "bogusName": true,
+                "lon": -118.44422706701478,
+                "lat": 34.0588548516241,
+                "elevation": [
+                ]
+              },
+              {
+                "distance": 17.346,
+                "relativeDirection": "LEFT",
+                "streetName": "Wilshire Boulevard",
+                "absoluteDirection": "EAST",
+                "stayOn": false,
+                "area": false,
+                "bogusName": false,
+                "lon": -118.44411120000001,
+                "lat": 34.058739800000005,
+                "elevation": [
+                ]
+              }
+            ]
+          },
+          {
+            "startTime": 1617865200000,
+            "endTime": 1617867540000,
+            "departureDelay": 0,
+            "arrivalDelay": 0,
+            "realTime": false,
+            "distance": 13236.227787940634,
+            "pathway": false,
+            "mode": "BUS",
+            "route": "CC006",
+            "agencyName": "Culver City Bus",
+            "agencyUrl": "http://www.culvercity.org/",
+            "agencyTimeZoneOffset": -25200000,
+            "routeType": 3,
+            "routeId": "7:291.1",
+            "interlineWithPreviousLeg": false,
+            "headsign": "SEPULVEDA BLVD/GREEN LINE STATION\"\"",
+            "agencyId": "10",
+            "tripId": "7:291.1-24-0-693-2355-2455-3463-0-0-0-0_CC_5LB",
+            "serviceDate": "20210407",
+            "from": {
+              "name": "WILSHIRE BLVD/WESTWOOD PZ",
+              "stopId": "7:10036",
+              "lon": -118.44393223021,
+              "lat": 34.058788308577,
+              "arrival": 1617864020000,
+              "departure": 1617865200000,
+              "stopIndex": 4,
+              "stopSequence": 36,
+              "vertexType": "TRANSIT"
+            },
+            "to": {
+              "name": "SEPULVEDA BLVD/MANCHESTER AV",
+              "stopId": "7:10175",
+              "lon": -118.39624791982,
+              "lat": 33.959855008629,
+              "arrival": 1617867540000,
+              "departure": 1617867541000,
+              "stopIndex": 34,
+              "stopSequence": 505,
+              "vertexType": "TRANSIT"
+            },
+            "legGeometry": {
+              "points": "kb{nErq|qUjEfWtInVpPgNvPgNdPuM~[aXzd@m_@`JeEzLoI`RgN|NqGjDgCfl@wb@fNaKbW_RdYyS~H}DtMuP~JySrNsZ`IoPnKgQnIcGlLQfZT~DX?yCmC?lC??aDmD?Q`H~^_ChND~PqCx@cH`QwDB`NnSdDl\\|EtT\\vUD",
+              "length": 43
+            },
+            "routeShortName": "CC006",
+            "routeLongName": "CULVER CITY 6_3",
+            "rentedBike": false,
+            "duration": 2340.0,
+            "transitLeg": true,
+            "intermediateStops": [
+              {
+                "name": "WILSHIRE BLVD/VETERAN AV",
+                "stopId": "7:10023",
+                "lon": -118.44781932212,
+                "lat": 34.057768232462,
+                "arrival": 1617865260000,
+                "departure": 1617865260000,
+                "stopIndex": 5,
+                "stopSequence": 48,
+                "vertexType": "TRANSIT"
+              },
+              {
+                "name": "SEPULVEDA BLVD/1401 SEPULVEDA BLVD",
+                "stopId": "7:10020",
+                "lon": -118.44913217838,
+                "lat": 34.053248585716,
+                "arrival": 1617865380000,
+                "departure": 1617865380000,
+                "stopIndex": 6,
+                "stopSequence": 74,
+                "vertexType": "TRANSIT"
+              },
+              {
+                "name": "SEPULVEDA BLVD/OHIO AV",
+                "stopId": "7:10024",
+                "lon": -118.4466938197,
+                "lat": 34.05040807609,
+                "arrival": 1617865440000,
+                "departure": 1617865440000,
+                "stopIndex": 7,
+                "stopSequence": 86,
+                "vertexType": "TRANSIT"
+              },
+              {
+                "name": "SEPULVEDA BLVD/SANTA MONICA BLVD",
+                "stopId": "7:10034",
+                "lon": -118.44434852333,
+                "lat": 34.047655108016,
+                "arrival": 1617865500000,
+                "departure": 1617865500000,
+                "stopIndex": 8,
+                "stopSequence": 99,
+                "vertexType": "TRANSIT"
+              },
+              {
+                "name": "SEPULVEDA BLVD/LA GRANGE AV",
+                "stopId": "7:10044",
+                "lon": -118.4403396229,
+                "lat": 34.043012136151,
+                "arrival": 1617865620000,
+                "departure": 1617865620000,
+                "stopIndex": 9,
+                "stopSequence": 120,
+                "vertexType": "TRANSIT"
+              },
+              {
+                "name": "SEPULVEDA BLVD/PICO BLVD",
+                "stopId": "7:10054",
+                "lon": -118.43514545782,
+                "lat": 34.036958153873,
+                "arrival": 1617865740000,
+                "departure": 1617865740000,
+                "stopIndex": 10,
+                "stopSequence": 147,
+                "vertexType": "TRANSIT"
+              },
+              {
+                "name": "SEPULVEDA BLVD/RICHLAND AV",
+                "stopId": "7:10058",
+                "lon": -118.43247433322,
+                "lat": 34.03296134508,
+                "arrival": 1617865800000,
+                "departure": 1617865800000,
+                "stopIndex": 11,
+                "stopSequence": 163,
+                "vertexType": "TRANSIT"
+              },
+              {
+                "name": "SEPULVEDA BLVD/SARDIS AV",
+                "stopId": "7:10062",
+                "lon": -118.43003938656,
+                "lat": 34.029917151181,
+                "arrival": 1617865860000,
+                "departure": 1617865860000,
+                "stopIndex": 12,
+                "stopSequence": 177,
+                "vertexType": "TRANSIT"
+              },
+              {
+                "name": "SEPULVEDA BLVD/NATIONAL BLVD",
+                "stopId": "7:10066",
+                "lon": -118.42866323026,
+                "lat": 34.027363772173,
+                "arrival": 1617865920000,
+                "departure": 1617865920000,
+                "stopIndex": 13,
+                "stopSequence": 187,
+                "vertexType": "TRANSIT"
+              },
+              {
+                "name": "SEPULVEDA BLVD/SEPULVEDA CT",
+                "stopId": "7:10072",
+                "lon": -118.42798226278,
+                "lat": 34.026503355061,
+                "arrival": 1617865980000,
+                "departure": 1617865980000,
+                "stopIndex": 14,
+                "stopSequence": 191,
+                "vertexType": "TRANSIT"
+              },
+              {
+                "name": "SEPULVEDA BLVD/PALMS BLVD",
+                "stopId": "7:10083",
+                "lon": -118.4222626277,
+                "lat": 34.019263610899,
+                "arrival": 1617866100000,
+                "departure": 1617866100000,
+                "stopIndex": 15,
+                "stopSequence": 222,
+                "vertexType": "TRANSIT"
+              },
+              {
+                "name": "SEPULVEDA BLVD/CHARNOCK RD",
+                "stopId": "7:10090",
+                "lon": -118.42033967448,
+                "lat": 34.016824714381,
+                "arrival": 1617866160000,
+                "departure": 1617866160000,
+                "stopIndex": 16,
+                "stopSequence": 233,
+                "vertexType": "TRANSIT"
+              },
+              {
+                "name": "SEPULVEDA BLVD/VENICE BLVD",
+                "stopId": "7:10101",
+                "lon": -118.41729441877,
+                "lat": 34.012966274949,
+                "arrival": 1617866280000,
+                "departure": 1617866280000,
+                "stopIndex": 17,
+                "stopSequence": 250,
+                "vertexType": "TRANSIT"
+              },
+              {
+                "name": "SEPULVEDA BLVD/WASHINGTON PL",
+                "stopId": "7:10113",
+                "lon": -118.41396731052,
+                "lat": 34.008770739343,
+                "arrival": 1617866340000,
+                "departure": 1617866340000,
+                "stopIndex": 18,
+                "stopSequence": 268,
+                "vertexType": "TRANSIT"
+              },
+              {
+                "name": "WASHINGTON BLVD/SEPULVEDA BLVD",
+                "stopId": "7:10118",
+                "lon": -118.41301576567,
+                "lat": 34.007177485854,
+                "arrival": 1617866400000,
+                "departure": 1617866400000,
+                "stopIndex": 19,
+                "stopSequence": 274,
+                "vertexType": "TRANSIT"
+              },
+              {
+                "name": "SEPULVEDA BLVD/CULVER BLVD",
+                "stopId": "7:10126",
+                "lon": -118.41018973343,
+                "lat": 34.004823954425,
+                "arrival": 1617866460000,
+                "departure": 1617866460000,
+                "stopIndex": 20,
+                "stopSequence": 286,
+                "vertexType": "TRANSIT"
+              },
+              {
+                "name": "SEPULVEDA BLVD/BRADDOCK DR",
+                "stopId": "7:10139",
+                "lon": -118.40685785266,
+                "lat": 34.002900731749,
+                "arrival": 1617866520000,
+                "departure": 1617866520000,
+                "stopIndex": 21,
+                "stopSequence": 299,
+                "vertexType": "TRANSIT"
+              },
+              {
+                "name": "SEPULVEDA BLVD/LUCERNE AV",
+                "stopId": "7:10153",
+                "lon": -118.40243133163,
+                "lat": 34.000409516128,
+                "arrival": 1617866640000,
+                "departure": 1617866640000,
+                "stopIndex": 22,
+                "stopSequence": 315,
+                "vertexType": "TRANSIT"
+              },
+              {
+                "name": "SEPULVEDA BLVD/5200 SEPULVEDA BLVD",
+                "stopId": "7:10162",
+                "lon": -118.39963574676,
+                "lat": 33.998794815396,
+                "arrival": 1617866700000,
+                "departure": 1617866700000,
+                "stopIndex": 23,
+                "stopSequence": 325,
+                "vertexType": "TRANSIT"
+              },
+              {
+                "name": "SEPULVEDA BLVD/JANISANN AV",
+                "stopId": "7:10171",
+                "lon": -118.39671636771,
+                "lat": 33.996793008087,
+                "arrival": 1617866760000,
+                "departure": 1617866760000,
+                "stopIndex": 24,
+                "stopSequence": 337,
+                "vertexType": "TRANSIT"
+              },
+              {
+                "name": "SEPULVEDA BLVD/SAWTELLE BLVD",
+                "stopId": "7:10186",
+                "lon": -118.3954118914,
+                "lat": 33.995115594386,
+                "arrival": 1617866760000,
+                "departure": 1617866760000,
+                "stopIndex": 25,
+                "stopSequence": 344,
+                "vertexType": "TRANSIT"
+              },
+              {
+                "name": "SEPULVEDA BLVD/BERRYMAN AV",
+                "stopId": "7:10188",
+                "lon": -118.39532585507,
+                "lat": 33.992964296328,
+                "arrival": 1617866820000,
+                "departure": 1617866820000,
+                "stopIndex": 26,
+                "stopSequence": 352,
+                "vertexType": "TRANSIT"
+              },
+              {
+                "name": "CULVER CITY TRANS CTR/BUS BAY 2",
+                "stopId": "7:10195",
+                "lon": -118.39479939145,
+                "lat": 33.98835784786,
+                "arrival": 1617867000000,
+                "departure": 1617867000000,
+                "stopIndex": 27,
+                "stopSequence": 376,
+                "vertexType": "TRANSIT"
+              },
+              {
+                "name": "SEPULVEDA BLVD/CENTINELA AV",
+                "stopId": "7:10192",
+                "lon": -118.39482095197,
+                "lat": 33.981037464126,
+                "arrival": 1617867120000,
+                "departure": 1617867120000,
+                "stopIndex": 28,
+                "stopSequence": 416,
+                "vertexType": "TRANSIT"
+              },
+              {
+                "name": "CENTER DR/PARK TER",
+                "stopId": "7:10208",
+                "lon": -118.39263897725,
+                "lat": 33.977868053424,
+                "arrival": 1617867180000,
+                "departure": 1617867180000,
+                "stopIndex": 29,
+                "stopSequence": 432,
+                "vertexType": "TRANSIT"
+              },
+              {
+                "name": "HOWARD HUGHES PKWY/PARK TER",
+                "stopId": "7:10212",
+                "lon": -118.39171509229,
+                "lat": 33.97497480843,
+                "arrival": 1617867240000,
+                "departure": 1617867240000,
+                "stopIndex": 30,
+                "stopSequence": 442,
+                "vertexType": "TRANSIT"
+              },
+              {
+                "name": "SEPULVEDA BLVD/76TH ST",
+                "stopId": "7:10191",
+                "lon": -118.39495822287,
+                "lat": 33.971677791015,
+                "arrival": 1617867360000,
+                "departure": 1617867360000,
+                "stopIndex": 31,
+                "stopSequence": 462,
+                "vertexType": "TRANSIT"
+              },
+              {
+                "name": "SEPULVEDA BLVD/79TH ST",
+                "stopId": "7:10179",
+                "lon": -118.39606060681,
+                "lat": 33.966967088697,
+                "arrival": 1617867420000,
+                "departure": 1617867420000,
+                "stopIndex": 32,
+                "stopSequence": 479,
+                "vertexType": "TRANSIT"
+              },
+              {
+                "name": "SEPULVEDA BLVD/83RD ST",
+                "stopId": "7:10177",
+                "lon": -118.3962156527,
+                "lat": 33.9634905346,
+                "arrival": 1617867480000,
+                "departure": 1617867480000,
+                "stopIndex": 33,
+                "stopSequence": 492,
+                "vertexType": "TRANSIT"
+              }
+            ],
+            "steps": [
+            ]
+          },
+          {
+            "startTime": 1617867541000,
+            "endTime": 1617868342000,
+            "departureDelay": 0,
+            "arrivalDelay": 0,
+            "realTime": false,
+            "distance": 1581.256,
+            "pathway": false,
+            "mode": "WALK",
+            "route": "",
+            "agencyTimeZoneOffset": -25200000,
+            "interlineWithPreviousLeg": false,
+            "from": {
+              "name": "SEPULVEDA BLVD/MANCHESTER AV",
+              "stopId": "7:10175",
+              "lon": -118.39624791982,
+              "lat": 33.959855008629,
+              "arrival": 1617867540000,
+              "departure": 1617867541000,
+              "stopIndex": 34,
+              "stopSequence": 505,
+              "vertexType": "TRANSIT"
+            },
+            "to": {
+              "name": "Destination",
+              "lon": -118.413288,
+              "lat": 33.959951,
+              "arrival": 1617868342000,
+              "orig": "",
+              "vertexType": "NORMAL"
+            },
+            "legGeometry": {
+              "points": "axgnEhgsqUI??f@?B?X?r@?h@?hB@zB?vH?`C?bA@xP?|B?Z@|`@?dS?v@",
+              "length": 18
+            },
+            "rentedBike": false,
+            "duration": 801.0,
+            "transitLeg": false,
+            "intermediateStops": [
+            ],
+            "steps": [
+              {
+                "distance": 5.978,
+                "relativeDirection": "DEPART",
+                "streetName": "South Sepulveda Boulevard",
+                "absoluteDirection": "NORTH",
+                "stayOn": false,
+                "area": false,
+                "bogusName": false,
+                "lon": -118.39620825753315,
+                "lat": 33.95985492869019,
+                "elevation": [
+                ]
+              },
+              {
+                "distance": 1575.278,
+                "relativeDirection": "LEFT",
+                "streetName": "West Manchester Avenue",
+                "absoluteDirection": "WEST",
+                "stayOn": false,
+                "area": false,
+                "bogusName": false,
+                "lon": -118.39620810000001,
+                "lat": 33.9599087,
+                "elevation": [
+                ]
+              }
+            ]
+          }
+        ],
+        "tooSloped": false
+      },
+      {
+        "duration": 7065,
+        "startTime": 1617888937000,
+        "endTime": 1617896002000,
+        "walkTime": 1480,
+        "transitTime": 5400,
+        "waitingTime": 185,
+        "walkDistance": 2903.6587499999996,
+        "walkLimitExceeded": false,
+        "elevationLost": 0.0,
+        "elevationGained": 0.0,
+        "transfers": 1,
+        "legs": [
+          {
+            "startTime": 1617888937000,
+            "endTime": 1617889439000,
+            "departureDelay": 0,
+            "arrivalDelay": 0,
+            "realTime": false,
+            "distance": 974.141,
+            "pathway": false,
+            "mode": "WALK",
+            "route": "",
+            "agencyTimeZoneOffset": -25200000,
+            "interlineWithPreviousLeg": false,
+            "from": {
+              "name": "Origin",
+              "lon": -118.38038,
+              "lat": 34.057836,
+              "departure": 1617888937000,
+              "orig": "",
+              "vertexType": "NORMAL"
+            },
+            "to": {
+              "name": "Wilshire / Willaman",
+              "stopId": "uscalacmtabus:16759",
+              "stopCode": "16759",
+              "lon": -118.380267,
+              "lat": 34.066347,
+              "arrival": 1617889439000,
+              "departure": 1617889440000,
+              "stopIndex": 43,
+              "stopSequence": 44,
+              "vertexType": "TRANSIT"
+            },
+            "legGeometry": {
+              "points": "m|znEpdpqU}GGW?Y?mGGOCOCoJ@OFOBA?{JNM?O?gCDs@@Q@Y?]@FS@EBQ",
+              "length": 22
+            },
+            "rentedBike": false,
+            "duration": 502.0,
+            "transitLeg": false,
+            "intermediateStops": [
+            ],
+            "steps": [
+              {
+                "distance": 568.6659999999999,
+                "relativeDirection": "DEPART",
+                "streetName": "South Bedford Street",
+                "absoluteDirection": "NORTH",
+                "stayOn": false,
+                "area": false,
+                "bogusName": false,
+                "lon": -118.38040381066078,
+                "lat": 34.05783640068827,
+                "elevation": [
+                ]
+              },
+              {
+                "distance": 367.67400000000004,
+                "relativeDirection": "CONTINUE",
+                "streetName": "South Willaman Drive",
+                "absoluteDirection": "NORTH",
+                "stayOn": false,
+                "area": false,
+                "bogusName": false,
+                "lon": -118.38033530000001,
+                "lat": 34.0629402,
+                "elevation": [
+                ]
+              },
+              {
+                "distance": 16.371,
+                "relativeDirection": "CONTINUE",
+                "streetName": "North Willaman Drive",
+                "absoluteDirection": "NORTH",
+                "stayOn": false,
+                "area": false,
+                "bogusName": false,
+                "lon": -118.3804896,
+                "lat": 34.0662431,
+                "elevation": [
+                ]
+              },
+              {
+                "distance": 21.43,
+                "relativeDirection": "RIGHT",
+                "streetName": "path",
+                "absoluteDirection": "SOUTHEAST",
+                "stayOn": false,
+                "area": false,
+                "bogusName": true,
+                "lon": -118.3804932,
+                "lat": 34.0663903,
+                "elevation": [
+                ]
+              }
+            ]
+          },
+          {
+            "startTime": 1617889440000,
+            "endTime": 1617890580000,
+            "departureDelay": 0,
+            "arrivalDelay": 0,
+            "realTime": false,
+            "distance": 6638.504250441604,
+            "pathway": false,
+            "mode": "BUS",
+            "route": "20",
+            "agencyName": "Metro - Los Angeles",
+            "agencyUrl": "http://www.metro.net",
+            "agencyTimeZoneOffset": -25200000,
+            "routeType": 3,
+            "routeId": "uscalacmtabus:20-13139",
+            "interlineWithPreviousLeg": false,
+            "tripBlockId": "0200600",
+            "headsign": "20 - Westwood",
+            "agencyId": "LACMTA",
+            "tripId": "uscalacmtabus:52266558-DEC20-D01CAR-1_Weekday",
+            "serviceDate": "20210408",
+            "from": {
+              "name": "Wilshire / Willaman",
+              "stopId": "uscalacmtabus:16759",
+              "stopCode": "16759",
+              "lon": -118.380267,
+              "lat": 34.066347,
+              "arrival": 1617889439000,
+              "departure": 1617889440000,
+              "stopIndex": 43,
+              "stopSequence": 44,
+              "vertexType": "TRANSIT"
+            },
+            "to": {
+              "name": "Veteran Federal Building",
+              "stopId": "uscalacmtabus:16770",
+              "stopCode": "16770",
+              "lon": -118.447281,
+              "lat": 34.057022,
+              "arrival": 1617890580000,
+              "departure": 1617892080000,
+              "stopIndex": 63,
+              "stopSequence": 64,
+              "vertexType": "TRANSIT"
+            },
+            "legGeometry": {
+              "points": "{p|nE~cpqUG\\s@tEu@nEc@tCIZAJCZ?X?|A???nAAhE?bE?`@??@hDAdE?lE?^???nD?h@A`D@|AA^???tA?hC?dA?X?`A???fB?rD?b@?nC?|@?tB?lA?|@AlD?pD?h@?tC?~@?lB??AjB@P?`@?`A???~A?^?fD?RAvE?R???p@?R?dC?H?hD?^?|E?L?@?`B?jD?vF?tC?lC?~H?`@???fMAb@aCr\\CXs@bKE`A@dAB|@B^?@B^^nFBPF^Jd@Rr@tBfG??Rj@dAzCf@fAHNHNTZfAlA`FfFt@l@XTZR??B@^L`Bf@tDbATFj@TVL\\TVTFHRT@B??Xd@FJVh@Vr@Tv@FXDZJ~@D^DTJb@BPDX~AvKF^PnAfAnGjBnKf@rCF^~@zFL~@@?Jp@ZlBZ~Ah@nCj@hD`@nCjCsB",
+              "length": 150
+            },
+            "routeShortName": "20",
+            "routeLongName": "Metro Local Line",
+            "rentedBike": false,
+            "duration": 1140.0,
+            "transitLeg": true,
+            "intermediateStops": [
+              {
+                "name": "Wilshire / Robertson",
+                "stopId": "uscalacmtabus:16746",
+                "stopCode": "16746",
+                "lon": -118.384269,
+                "lat": 34.067186,
+                "arrival": 1617889500000,
+                "departure": 1617889500000,
+                "stopIndex": 44,
+                "stopSequence": 45,
+                "vertexType": "TRANSIT"
+              },
+              {
+                "name": "Wilshire / La Peer",
+                "stopId": "uscalacmtabus:16732",
+                "stopCode": "16732",
+                "lon": -118.386821,
+                "lat": 34.067189,
+                "arrival": 1617889560000,
+                "departure": 1617889560000,
+                "stopIndex": 45,
+                "stopSequence": 46,
+                "vertexType": "TRANSIT"
+              },
+              {
+                "name": "Wilshire / Doheny",
+                "stopId": "uscalacmtabus:16715",
+                "stopCode": "16715",
+                "lon": -118.389856,
+                "lat": 34.067193,
+                "arrival": 1617889620000,
+                "departure": 1617889620000,
+                "stopIndex": 46,
+                "stopSequence": 47,
+                "vertexType": "TRANSIT"
+              },
+              {
+                "name": "Wilshire / Palm",
+                "stopId": "uscalacmtabus:16740",
+                "stopCode": "16740",
+                "lon": -118.392388,
+                "lat": 34.067199,
+                "arrival": 1617889680000,
+                "departure": 1617889680000,
+                "stopIndex": 47,
+                "stopSequence": 48,
+                "vertexType": "TRANSIT"
+              },
+              {
+                "name": "Wilshire / Rexford",
+                "stopId": "uscalacmtabus:16743",
+                "stopCode": "16743",
+                "lon": -118.394317,
+                "lat": 34.067201,
+                "arrival": 1617889680000,
+                "departure": 1617889680000,
+                "stopIndex": 48,
+                "stopSequence": 49,
+                "vertexType": "TRANSIT"
+              },
+              {
+                "name": "Wilshire / Rodeo",
+                "stopId": "uscalacmtabus:16747",
+                "stopCode": "16747",
+                "lon": -118.40182,
+                "lat": 34.067217,
+                "arrival": 1617889800000,
+                "departure": 1617889800000,
+                "stopIndex": 49,
+                "stopSequence": 50,
+                "vertexType": "TRANSIT"
+              },
+              {
+                "name": "Wilshire / Camden",
+                "stopId": "uscalacmtabus:16663",
+                "stopCode": "16663",
+                "lon": -118.402958,
+                "lat": 34.067213,
+                "arrival": 1617889800000,
+                "departure": 1617889800000,
+                "stopIndex": 50,
+                "stopSequence": 51,
+                "vertexType": "TRANSIT"
+              },
+              {
+                "name": "Wilshire / Brighton",
+                "stopId": "uscalacmtabus:16662",
+                "stopCode": "16662",
+                "lon": -118.405718,
+                "lat": 34.067221,
+                "arrival": 1617889860000,
+                "departure": 1617889860000,
+                "stopIndex": 51,
+                "stopSequence": 52,
+                "vertexType": "TRANSIT"
+              },
+              {
+                "name": "Wilshire / Linden",
+                "stopId": "uscalacmtabus:16733",
+                "stopCode": "16733",
+                "lon": -118.407633,
+                "lat": 34.06722,
+                "arrival": 1617889920000,
+                "departure": 1617889920000,
+                "stopIndex": 52,
+                "stopSequence": 53,
+                "vertexType": "TRANSIT"
+              },
+              {
+                "name": "Wilshire / Santa Monica",
+                "stopId": "uscalacmtabus:16762",
+                "stopCode": "16762",
+                "lon": -118.408981,
+                "lat": 34.06722,
+                "arrival": 1617889920000,
+                "departure": 1617889920000,
+                "stopIndex": 53,
+                "stopSequence": 54,
+                "vertexType": "TRANSIT"
+              },
+              {
+                "name": "Wilshire / Whittier",
+                "stopId": "uscalacmtabus:16778",
+                "stopCode": "16778",
+                "lon": -118.414802,
+                "lat": 34.067223,
+                "arrival": 1617889980000,
+                "departure": 1617889980000,
+                "stopIndex": 54,
+                "stopSequence": 55,
+                "vertexType": "TRANSIT"
+              },
+              {
+                "name": "Wilshire / LA Country Club",
+                "stopId": "uscalacmtabus:16665",
+                "stopCode": "16665",
+                "lon": -118.421977,
+                "lat": 34.067882,
+                "arrival": 1617890100000,
+                "departure": 1617890100000,
+                "stopIndex": 55,
+                "stopSequence": 56,
+                "vertexType": "TRANSIT"
+              },
+              {
+                "name": "Wilshire / Comstock",
+                "stopId": "uscalacmtabus:16690",
+                "stopCode": "16690",
+                "lon": -118.425254,
+                "lat": 34.06814,
+                "arrival": 1617890160000,
+                "departure": 1617890160000,
+                "stopIndex": 56,
+                "stopSequence": 57,
+                "vertexType": "TRANSIT"
+              },
+              {
+                "name": "Wilshire / Beverly Glen",
+                "stopId": "uscalacmtabus:16704",
+                "stopCode": "16704",
+                "lon": -118.428689,
+                "lat": 34.067136,
+                "arrival": 1617890220000,
+                "departure": 1617890220000,
+                "stopIndex": 57,
+                "stopSequence": 58,
+                "vertexType": "TRANSIT"
+              },
+              {
+                "name": "Wilshire / Warner",
+                "stopId": "uscalacmtabus:16773",
+                "stopCode": "16773",
+                "lon": -118.432392,
+                "lat": 34.064196,
+                "arrival": 1617890280000,
+                "departure": 1617890280000,
+                "stopIndex": 58,
+                "stopSequence": 59,
+                "vertexType": "TRANSIT"
+              },
+              {
+                "name": "Wilshire / Westholme",
+                "stopId": "uscalacmtabus:16775",
+                "stopCode": "16775",
+                "lon": -118.433601,
+                "lat": 34.061782,
+                "arrival": 1617890340000,
+                "departure": 1617890340000,
+                "stopIndex": 59,
+                "stopSequence": 60,
+                "vertexType": "TRANSIT"
+              },
+              {
+                "name": "Wilshire / Selby",
+                "stopId": "uscalacmtabus:16765",
+                "stopCode": "16765",
+                "lon": -118.437847,
+                "lat": 34.060502,
+                "arrival": 1617890400000,
+                "departure": 1617890400000,
+                "stopIndex": 60,
+                "stopSequence": 61,
+                "vertexType": "TRANSIT"
+              },
+              {
+                "name": "Wilshire / Glendon",
+                "stopId": "uscalacmtabus:16693",
+                "stopCode": "16693",
+                "lon": -118.442512,
+                "lat": 34.059279,
+                "arrival": 1617890460000,
+                "departure": 1617890460000,
+                "stopIndex": 61,
+                "stopSequence": 62,
+                "vertexType": "TRANSIT"
+              },
+              {
+                "name": "Wilshire / Westwood",
+                "stopId": "uscalacmtabus:16777",
+                "stopCode": "16777",
+                "lon": -118.44425,
+                "lat": 34.058839,
+                "arrival": 1617890520000,
+                "departure": 1617890520000,
+                "stopIndex": 62,
+                "stopSequence": 63,
+                "vertexType": "TRANSIT"
+              }
+            ],
+            "steps": [
+            ]
+          },
+          {
+            "startTime": 1617892080000,
+            "endTime": 1617892140000,
+            "departureDelay": 0,
+            "arrivalDelay": 0,
+            "realTime": false,
+            "distance": 204.01643998847413,
+            "pathway": false,
+            "mode": "BUS",
+            "route": "20",
+            "agencyName": "Metro - Los Angeles",
+            "agencyUrl": "http://www.metro.net",
+            "agencyTimeZoneOffset": -25200000,
+            "routeType": 3,
+            "routeId": "uscalacmtabus:20-13139",
+            "interlineWithPreviousLeg": true,
+            "tripBlockId": "0200600",
+            "headsign": "20 - Downtown LA - 6th - Main",
+            "agencyId": "LACMTA",
+            "tripId": "uscalacmtabus:52266629-DEC20-D01CAR-1_Weekday",
+            "serviceDate": "20210408",
+            "from": {
+              "name": "Veteran Federal Building",
+              "stopId": "uscalacmtabus:16770",
+              "stopCode": "16770",
+              "lon": -118.447281,
+              "lat": 34.057022,
+              "arrival": 1617890580000,
+              "departure": 1617892080000,
+              "stopIndex": 0,
+              "stopSequence": 1,
+              "vertexType": "TRANSIT"
+            },
+            "to": {
+              "name": "Federal Bldg Rdway",
+              "stopId": "uscalacmtabus:2928",
+              "stopCode": "2928",
+              "lon": -118.448425,
+              "lat": 34.055451,
+              "arrival": 1617892140000,
+              "departure": 1617892140000,
+              "stopIndex": 1,
+              "stopSequence": 2,
+              "vertexType": "TRANSIT"
+            },
+            "legGeometry": {
+              "points": "uwznE~e}qUn@g@pAgAlEzI",
+              "length": 4
+            },
+            "routeShortName": "20",
+            "routeLongName": "Metro Local Line",
+            "rentedBike": false,
+            "duration": 60.0,
+            "transitLeg": true,
+            "intermediateStops": [
+            ],
+            "steps": [
+            ]
+          },
+          {
+            "startTime": 1617892140000,
+            "endTime": 1617892317000,
+            "departureDelay": 0,
+            "arrivalDelay": 0,
+            "realTime": false,
+            "distance": 348.203,
+            "pathway": false,
+            "mode": "WALK",
+            "route": "",
+            "agencyTimeZoneOffset": -25200000,
+            "interlineWithPreviousLeg": false,
+            "from": {
+              "name": "Federal Bldg Rdway",
+              "stopId": "uscalacmtabus:2928",
+              "stopCode": "2928",
+              "lon": -118.448425,
+              "lat": 34.055451,
+              "arrival": 1617892140000,
+              "departure": 1617892140000,
+              "stopIndex": 1,
+              "stopSequence": 2,
+              "vertexType": "TRANSIT"
+            },
+            "to": {
+              "name": "SEPULVEDA BLVD/1401 SEPULVEDA BLVD",
+              "stopId": "7:10020",
+              "lon": -118.44913217838,
+              "lat": 34.053248585716,
+              "arrival": 1617892317000,
+              "departure": 1617892500000,
+              "stopIndex": 6,
+              "stopSequence": 74,
+              "vertexType": "TRANSIT"
+            },
+            "legGeometry": {
+              "points": "emznEjm}qUPZHRh@dADJBFBDDFJTv@zAFLHPJTLVpDyCVSDEPM",
+              "length": 18
+            },
+            "rentedBike": false,
+            "duration": 177.0,
+            "transitLeg": false,
+            "intermediateStops": [
+            ],
+            "steps": [
+              {
+                "distance": 194.093,
+                "relativeDirection": "DEPART",
+                "streetName": "service road",
+                "absoluteDirection": "SOUTHWEST",
+                "stayOn": false,
+                "area": false,
+                "bogusName": true,
+                "lon": -118.44837644695669,
+                "lat": 34.055398660401686,
+                "elevation": [
+                ]
+              },
+              {
+                "distance": 154.11,
+                "relativeDirection": "LEFT",
+                "streetName": "Sepulveda Boulevard",
+                "absoluteDirection": "SOUTHEAST",
+                "stayOn": false,
+                "area": false,
+                "bogusName": false,
+                "lon": -118.450091,
+                "lat": 34.0543844,
+                "elevation": [
+                ]
+              }
+            ]
+          },
+          {
+            "startTime": 1617892500000,
+            "endTime": 1617895200000,
+            "departureDelay": 0,
+            "arrivalDelay": 0,
+            "realTime": false,
+            "distance": 12343.696029923749,
+            "pathway": false,
+            "mode": "BUS",
+            "route": "CC006",
+            "agencyName": "Culver City Bus",
+            "agencyUrl": "http://www.culvercity.org/",
+            "agencyTimeZoneOffset": -25200000,
+            "routeType": 3,
+            "routeId": "7:291.1",
+            "interlineWithPreviousLeg": false,
+            "headsign": "SEPULVEDA BLVD/GREEN LINE STATION\"\"",
+            "agencyId": "10",
+            "tripId": "7:291.1-8-0-693-0727-0837-3463-0-0-0-0_CC_5LB",
+            "serviceDate": "20210408",
+            "from": {
+              "name": "SEPULVEDA BLVD/1401 SEPULVEDA BLVD",
+              "stopId": "7:10020",
+              "lon": -118.44913217838,
+              "lat": 34.053248585716,
+              "arrival": 1617892317000,
+              "departure": 1617892500000,
+              "stopIndex": 6,
+              "stopSequence": 74,
+              "vertexType": "TRANSIT"
+            },
+            "to": {
+              "name": "SEPULVEDA BLVD/MANCHESTER AV",
+              "stopId": "7:10175",
+              "lon": -118.39624791982,
+              "lat": 33.959855008629,
+              "arrival": 1617895200000,
+              "departure": 1617895201000,
+              "stopIndex": 34,
+              "stopSequence": 505,
+              "vertexType": "TRANSIT"
+            },
+            "legGeometry": {
+              "points": "w_znEbr}qUvPgNdPuM~[aXzd@m_@`JeEzLoI`RgN|NqGjDgCfl@wb@fNaKbW_RdYyS~H}DtMuP~JySrNsZ`IoPnKgQnIcGlLQfZT~DX?yCmC?lC??aDmD?Q`H~^_ChND~PqCx@cH`QwDB`NnSdDl\\|EtT\\vUD",
+              "length": 40
+            },
+            "routeShortName": "CC006",
+            "routeLongName": "CULVER CITY 6_3",
+            "rentedBike": false,
+            "duration": 2700.0,
+            "transitLeg": true,
+            "intermediateStops": [
+              {
+                "name": "SEPULVEDA BLVD/OHIO AV",
+                "stopId": "7:10024",
+                "lon": -118.4466938197,
+                "lat": 34.05040807609,
+                "arrival": 1617892560000,
+                "departure": 1617892560000,
+                "stopIndex": 7,
+                "stopSequence": 86,
+                "vertexType": "TRANSIT"
+              },
+              {
+                "name": "SEPULVEDA BLVD/SANTA MONICA BLVD",
+                "stopId": "7:10034",
+                "lon": -118.44434852333,
+                "lat": 34.047655108016,
+                "arrival": 1617892620000,
+                "departure": 1617892620000,
+                "stopIndex": 8,
+                "stopSequence": 99,
+                "vertexType": "TRANSIT"
+              },
+              {
+                "name": "SEPULVEDA BLVD/LA GRANGE AV",
+                "stopId": "7:10044",
+                "lon": -118.4403396229,
+                "lat": 34.043012136151,
+                "arrival": 1617892740000,
+                "departure": 1617892740000,
+                "stopIndex": 9,
+                "stopSequence": 120,
+                "vertexType": "TRANSIT"
+              },
+              {
+                "name": "SEPULVEDA BLVD/PICO BLVD",
+                "stopId": "7:10054",
+                "lon": -118.43514545782,
+                "lat": 34.036958153873,
+                "arrival": 1617892920000,
+                "departure": 1617892920000,
+                "stopIndex": 10,
+                "stopSequence": 147,
+                "vertexType": "TRANSIT"
+              },
+              {
+                "name": "SEPULVEDA BLVD/RICHLAND AV",
+                "stopId": "7:10058",
+                "lon": -118.43247433322,
+                "lat": 34.03296134508,
+                "arrival": 1617892980000,
+                "departure": 1617892980000,
+                "stopIndex": 11,
+                "stopSequence": 163,
+                "vertexType": "TRANSIT"
+              },
+              {
+                "name": "SEPULVEDA BLVD/SARDIS AV",
+                "stopId": "7:10062",
+                "lon": -118.43003938656,
+                "lat": 34.029917151181,
+                "arrival": 1617893100000,
+                "departure": 1617893100000,
+                "stopIndex": 12,
+                "stopSequence": 177,
+                "vertexType": "TRANSIT"
+              },
+              {
+                "name": "SEPULVEDA BLVD/NATIONAL BLVD",
+                "stopId": "7:10066",
+                "lon": -118.42866323026,
+                "lat": 34.027363772173,
+                "arrival": 1617893160000,
+                "departure": 1617893160000,
+                "stopIndex": 13,
+                "stopSequence": 187,
+                "vertexType": "TRANSIT"
+              },
+              {
+                "name": "SEPULVEDA BLVD/SEPULVEDA CT",
+                "stopId": "7:10072",
+                "lon": -118.42798226278,
+                "lat": 34.026503355061,
+                "arrival": 1617893160000,
+                "departure": 1617893160000,
+                "stopIndex": 14,
+                "stopSequence": 191,
+                "vertexType": "TRANSIT"
+              },
+              {
+                "name": "SEPULVEDA BLVD/PALMS BLVD",
+                "stopId": "7:10083",
+                "lon": -118.4222626277,
+                "lat": 34.019263610899,
+                "arrival": 1617893340000,
+                "departure": 1617893340000,
+                "stopIndex": 15,
+                "stopSequence": 222,
+                "vertexType": "TRANSIT"
+              },
+              {
+                "name": "SEPULVEDA BLVD/CHARNOCK RD",
+                "stopId": "7:10090",
+                "lon": -118.42033967448,
+                "lat": 34.016824714381,
+                "arrival": 1617893400000,
+                "departure": 1617893400000,
+                "stopIndex": 16,
+                "stopSequence": 233,
+                "vertexType": "TRANSIT"
+              },
+              {
+                "name": "SEPULVEDA BLVD/VENICE BLVD",
+                "stopId": "7:10101",
+                "lon": -118.41729441877,
+                "lat": 34.012966274949,
+                "arrival": 1617893520000,
+                "departure": 1617893520000,
+                "stopIndex": 17,
+                "stopSequence": 250,
+                "vertexType": "TRANSIT"
+              },
+              {
+                "name": "SEPULVEDA BLVD/WASHINGTON PL",
+                "stopId": "7:10113",
+                "lon": -118.41396731052,
+                "lat": 34.008770739343,
+                "arrival": 1617893640000,
+                "departure": 1617893640000,
+                "stopIndex": 18,
+                "stopSequence": 268,
+                "vertexType": "TRANSIT"
+              },
+              {
+                "name": "WASHINGTON BLVD/SEPULVEDA BLVD",
+                "stopId": "7:10118",
+                "lon": -118.41301576567,
+                "lat": 34.007177485854,
+                "arrival": 1617893700000,
+                "departure": 1617893700000,
+                "stopIndex": 19,
+                "stopSequence": 274,
+                "vertexType": "TRANSIT"
+              },
+              {
+                "name": "SEPULVEDA BLVD/CULVER BLVD",
+                "stopId": "7:10126",
+                "lon": -118.41018973343,
+                "lat": 34.004823954425,
+                "arrival": 1617893760000,
+                "departure": 1617893760000,
+                "stopIndex": 20,
+                "stopSequence": 286,
+                "vertexType": "TRANSIT"
+              },
+              {
+                "name": "SEPULVEDA BLVD/BRADDOCK DR",
+                "stopId": "7:10139",
+                "lon": -118.40685785266,
+                "lat": 34.002900731749,
+                "arrival": 1617893880000,
+                "departure": 1617893880000,
+                "stopIndex": 21,
+                "stopSequence": 299,
+                "vertexType": "TRANSIT"
+              },
+              {
+                "name": "SEPULVEDA BLVD/LUCERNE AV",
+                "stopId": "7:10153",
+                "lon": -118.40243133163,
+                "lat": 34.000409516128,
+                "arrival": 1617894000000,
+                "departure": 1617894000000,
+                "stopIndex": 22,
+                "stopSequence": 315,
+                "vertexType": "TRANSIT"
+              },
+              {
+                "name": "SEPULVEDA BLVD/5200 SEPULVEDA BLVD",
+                "stopId": "7:10162",
+                "lon": -118.39963574676,
+                "lat": 33.998794815396,
+                "arrival": 1617894060000,
+                "departure": 1617894060000,
+                "stopIndex": 23,
+                "stopSequence": 325,
+                "vertexType": "TRANSIT"
+              },
+              {
+                "name": "SEPULVEDA BLVD/JANISANN AV",
+                "stopId": "7:10171",
+                "lon": -118.39671636771,
+                "lat": 33.996793008087,
+                "arrival": 1617894180000,
+                "departure": 1617894180000,
+                "stopIndex": 24,
+                "stopSequence": 337,
+                "vertexType": "TRANSIT"
+              },
+              {
+                "name": "SEPULVEDA BLVD/SAWTELLE BLVD",
+                "stopId": "7:10186",
+                "lon": -118.3954118914,
+                "lat": 33.995115594386,
+                "arrival": 1617894180000,
+                "departure": 1617894180000,
+                "stopIndex": 25,
+                "stopSequence": 344,
+                "vertexType": "TRANSIT"
+              },
+              {
+                "name": "SEPULVEDA BLVD/BERRYMAN AV",
+                "stopId": "7:10188",
+                "lon": -118.39532585507,
+                "lat": 33.992964296328,
+                "arrival": 1617894240000,
+                "departure": 1617894240000,
+                "stopIndex": 26,
+                "stopSequence": 352,
+                "vertexType": "TRANSIT"
+              },
+              {
+                "name": "CULVER CITY TRANS CTR/BUS BAY 2",
+                "stopId": "7:10195",
+                "lon": -118.39479939145,
+                "lat": 33.98835784786,
+                "arrival": 1617894480000,
+                "departure": 1617894480000,
+                "stopIndex": 27,
+                "stopSequence": 376,
+                "vertexType": "TRANSIT"
+              },
+              {
+                "name": "SEPULVEDA BLVD/CENTINELA AV",
+                "stopId": "7:10192",
+                "lon": -118.39482095197,
+                "lat": 33.981037464126,
+                "arrival": 1617894660000,
+                "departure": 1617894660000,
+                "stopIndex": 28,
+                "stopSequence": 416,
+                "vertexType": "TRANSIT"
+              },
+              {
+                "name": "CENTER DR/PARK TER",
+                "stopId": "7:10208",
+                "lon": -118.39263897725,
+                "lat": 33.977868053424,
+                "arrival": 1617894780000,
+                "departure": 1617894780000,
+                "stopIndex": 29,
+                "stopSequence": 432,
+                "vertexType": "TRANSIT"
+              },
+              {
+                "name": "HOWARD HUGHES PKWY/PARK TER",
+                "stopId": "7:10212",
+                "lon": -118.39171509229,
+                "lat": 33.97497480843,
+                "arrival": 1617894840000,
+                "departure": 1617894840000,
+                "stopIndex": 30,
+                "stopSequence": 442,
+                "vertexType": "TRANSIT"
+              },
+              {
+                "name": "SEPULVEDA BLVD/76TH ST",
+                "stopId": "7:10191",
+                "lon": -118.39495822287,
+                "lat": 33.971677791015,
+                "arrival": 1617894960000,
+                "departure": 1617894960000,
+                "stopIndex": 31,
+                "stopSequence": 462,
+                "vertexType": "TRANSIT"
+              },
+              {
+                "name": "SEPULVEDA BLVD/79TH ST",
+                "stopId": "7:10179",
+                "lon": -118.39606060681,
+                "lat": 33.966967088697,
+                "arrival": 1617895020000,
+                "departure": 1617895020000,
+                "stopIndex": 32,
+                "stopSequence": 479,
+                "vertexType": "TRANSIT"
+              },
+              {
+                "name": "SEPULVEDA BLVD/83RD ST",
+                "stopId": "7:10177",
+                "lon": -118.3962156527,
+                "lat": 33.9634905346,
+                "arrival": 1617895080000,
+                "departure": 1617895080000,
+                "stopIndex": 33,
+                "stopSequence": 492,
+                "vertexType": "TRANSIT"
+              }
+            ],
+            "steps": [
+            ]
+          },
+          {
+            "startTime": 1617895201000,
+            "endTime": 1617896002000,
+            "departureDelay": 0,
+            "arrivalDelay": 0,
+            "realTime": false,
+            "distance": 1581.256,
+            "pathway": false,
+            "mode": "WALK",
+            "route": "",
+            "agencyTimeZoneOffset": -25200000,
+            "interlineWithPreviousLeg": false,
+            "from": {
+              "name": "SEPULVEDA BLVD/MANCHESTER AV",
+              "stopId": "7:10175",
+              "lon": -118.39624791982,
+              "lat": 33.959855008629,
+              "arrival": 1617895200000,
+              "departure": 1617895201000,
+              "stopIndex": 34,
+              "stopSequence": 505,
+              "vertexType": "TRANSIT"
+            },
+            "to": {
+              "name": "Destination",
+              "lon": -118.413288,
+              "lat": 33.959951,
+              "arrival": 1617896002000,
+              "orig": "",
+              "vertexType": "NORMAL"
+            },
+            "legGeometry": {
+              "points": "axgnEhgsqUI??f@?B?X?r@?h@?hB@zB?vH?`C?bA@xP?|B?Z@|`@?dS?v@",
+              "length": 18
+            },
+            "rentedBike": false,
+            "duration": 801.0,
+            "transitLeg": false,
+            "intermediateStops": [
+            ],
+            "steps": [
+              {
+                "distance": 5.978,
+                "relativeDirection": "DEPART",
+                "streetName": "South Sepulveda Boulevard",
+                "absoluteDirection": "NORTH",
+                "stayOn": false,
+                "area": false,
+                "bogusName": false,
+                "lon": -118.39620825753315,
+                "lat": 33.95985492869019,
+                "elevation": [
+                ]
+              },
+              {
+                "distance": 1575.278,
+                "relativeDirection": "LEFT",
+                "streetName": "West Manchester Avenue",
+                "absoluteDirection": "WEST",
+                "stayOn": false,
+                "area": false,
+                "bogusName": false,
+                "lon": -118.39620810000001,
+                "lat": 33.9599087,
+                "elevation": [
+                ]
+              }
+            ]
+          }
+        ],
+        "tooSloped": false
+      }
+    ]
+  },
+  "debugOutput": {
+    "precalculationTime": 43,
+    "pathCalculationTime": 1113,
+    "pathTimes": [
+      435,
+      678
+    ],
+    "renderingTime": 0,
+    "totalTime": 1156,
+    "timedOut": false
+  },
+  "elevationMetadata": {
+    "ellipsoidToGeoidDifference": -34.39431798171346,
+    "geoidElevation": false
+  }
+}
+
